@@ -269,7 +269,7 @@ check are performed:
 
 	* the actual partition must not be identified as containing a valid 
 	  filesystem as recognised by blkid library. Specifically, it cannot 
-	  contains a ext2/3 filesystem (this avoids you to ovewrite your root 
+	  contains a ext p. O/1 filesystem (this avoids you to ovewrite your root 
 	  filesystem by mistake)
 
 	* the updated/created boot image has to be same size than the block 
